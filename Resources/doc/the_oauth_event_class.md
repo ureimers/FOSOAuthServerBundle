@@ -6,7 +6,7 @@ By default, the FOSOAuthServerBundle will always show the authorization page to 
 when an access token is asked. As an access token has a lifetime, it can be annoying for your
 users to always accept a client.
 
-Thanks to the [Event Dispatcher](http://symfony.com/doc/current/components/event_dispatcher.html),
+Thanks to the [Event Dispatcher](http://symfony.com/doc/current/components/event_dispatcher/index.html),
 you can listen before, and after the authorization form process. So, you can save the user's choice,
 and even by pass the authorization pass. Let's an example.
 
